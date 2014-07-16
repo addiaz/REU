@@ -1,0 +1,128 @@
+﻿/* -------------------------------------------------------------------------------------------- */
+/* Estilos Menu- */
+/* -------------------------------------------------------------------------------------------- */
+
+
+/*ul
+{
+	 
+  list-style: none;
+
+  padding:0;
+	height: 93px;
+	margin-left: 0px;
+}
+*/
+.menu:after
+{
+	list-style: none;
+	content: " ";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0.1px;
+	font-size: 10pt;
+	line-height: 0;
+}
+ul.menu li.menu-item 
+{
+	background: #C0C0C0;
+	margin:0;
+	padding:0;
+	position:relative;
+	list-style:none;
+	list-style-position:outside;
+	display:inline;
+	float:left;
+	
+}
+ul.menu li.menu-item a {
+	display:block;
+	text-decoration:none;
+	white-space:nowrap;
+	outline:0;
+}
+ul.menu ul.menu-group {
+	margin:0;
+	padding:0;
+	-webkit-padding-start:0;
+	-webkit-padding-end:0;
+	position:absolute;
+	display:none;
+	z-index:1000;
+	
+}
+
+._barraMenu
+{
+	width:43%;
+}
+
+li.menu-item {
+
+	width:200px; /*auto;*/
+	font-size:10pt;
+	background:#C0C0C0;
+	border-style: none;
+	-webkit-border-radius: 6px; /* Para Safari y Chrome */ 
+	-moz-border-radius: 6px; /* Para Firefox */ 
+	-khtml-border-radius:6px; /* Navegadores de Linux */ 
+	border-radius: 6px; /* CSS3 */ 
+	border-color:black; /*#C0C0C0;*/
+	border-style:solid;
+	border-width:.1em;
+	color: #000;
+}
+
+ul.menu-group {
+	padding-left:10px;
+	width: 100%;
+
+	z-index:1000;
+
+}
+
+li.menu-item a {
+
+	padding:5px 20px 5px 12px;
+	color: #000;
+}
+
+li.menu-item a:link 
+{
+	color: #000;
+}
+
+
+li.menu-hover
+{
+	background-color: #00386b;
+  -moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-border-radius: 6px; /* border-color:white; */
+	border-style: solid;
+	border-width: .1em;
+}
+
+li.menu-has-vertical > a {
+
+	background: transparent url('../imagenes/Imagemenu-arrow-down.png') right no-repeat;
+
+}
+
+li.menu-has-horizontal > a {
+
+	background: transparent url('../imagenes/Imagemenu-arrow-right.png') right no-repeat;
+
+}
+
+li.menu-item ul {
+
+	/*border-top:1px solid #444;
+	border-left:1px solid #444;*/
+  /*-moz-border-radius: 6px; -webkit-border-radius: 6px; -border-radius: 6px; */
+	/*border-color:white; 
+	border-style:solid;
+	border-width:.1em;*/
+
+}

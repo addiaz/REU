@@ -1,0 +1,8 @@
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Negocios.dll.config
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Negocios.dll
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Negocios.pdb
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Datos.dll
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Datos.pdb
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.csprojResolveAssemblyReference.cache
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.dll
+c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.pdb

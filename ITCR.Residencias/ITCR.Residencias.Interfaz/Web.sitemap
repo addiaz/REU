@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Inicio"  description="Inicio">
+        <siteMapNode url="~/frmMantenimiento.aspx" title="Plantilla de Mantenimiento de datos"  description="Plantilla de Mantenimiento de datos">
+            <!--Ojo con la jerarquía-->
+            <siteMapNode url="~/frmDatos.aspx" title="Datos (detalle)"  description="Datos (detalle)" />
+        </siteMapNode>
+        <!--Las siguientes líneas son ejemplos del contenido que debe tener este documento-->
+        <!--<siteMapNode url="~/frmMantTiposDoc.aspx" title="Mantenimiento de Tipos documentales"  description="Mantenimiento de Tipos documentales">
+            <siteMapNode url="~/frmDetalleTipoDoc.aspx" title="Datos de tipo documental"  description="Datos de tipo documental" />
+        </siteMapNode>
+        <siteMapNode url="~/frmRegistroDocumentos.aspx" title="Registro de documentos"  description="Registro de documentos" />-->
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,5 @@
+﻿Uso del bradcrumb
+
+- incluir el control
+- hacer los cambios al web.config
+- ref:  http://autonav.codeplex.com/documentation
