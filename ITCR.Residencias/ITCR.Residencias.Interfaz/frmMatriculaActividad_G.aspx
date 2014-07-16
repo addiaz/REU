@@ -22,10 +22,9 @@
             
                     <label> Actividades: </label>
 
-                    <asp:DropDownList ID="ddlActividades" runat="server" CssClass="btn btn-default">
-                    </asp:DropDownList>
+                    <asp:DropDownList ID="drpActividades" runat="server"></asp:DropDownList>
 
-                    <select id="selectActividades" runat="server" class="btn btn-default">
+                    <select id="Select1" runat="server" class="btn btn-group">
                         <option></option>
 
                     </select>
@@ -35,7 +34,7 @@
 
                     </section>
 
-                    <asp:Panel ID="panelEstudiante" runat="server" Visible ="false">
+                    <asp:Panel ID="PanelInicio" runat="server" Visible ="false">
                         <br />
                         <label> Capitán:
                             <asp:TextBox ID="txtCapitan" runat="server" Text="Yo"  CssClass="form-control" Enabled="false"></asp:TextBox>
@@ -45,22 +44,58 @@
                         <label> Nombre de Equipo:
                             <asp:TextBox ID="txtNombreEquipo" runat="server" Text = ""  CssClass="form-control" Enabled="true"></asp:TextBox>
                         </label>
+                    </asp:Panel>
 
+                    <asp:Panel ID="PanelResidentes" runat="server" Visible="false">
                         <br />
-                        <h2> Residentes </h2>
+                        <h5> Residentes </h5>
 
                         <asp:CheckBoxList ID="chklEstudiantes" runat="server">
                         </asp:CheckBoxList>
-
-                        <asp:Button ID="btnMatricular" runat="server" Text="Matricular" CssClass="btn btn-default" type="submit" OnClick="btnMatricular_Click"/>
                     </asp:Panel>
+
+                <asp:Panel ID="PanelPorEdificio" runat="server" Visible="false">
+
+                        <h5> Residentes A </h5>
+                        <asp:CheckBoxList ID="chklEdificioA" runat="server">
+                        </asp:CheckBoxList>
+
+                        <h5> Residentes B </h5>
+                        <asp:CheckBoxList ID="chklEdificioB" runat="server">
+                        </asp:CheckBoxList>
+
+                        <h5> Residentes C </h5>
+                        <asp:CheckBoxList ID="chklEdificioC" runat="server">
+                        </asp:CheckBoxList>
+
+                        <h5> Residentes Casita </h5>
+                        <asp:CheckBoxList ID="chklCasita" runat="server">
+                        </asp:CheckBoxList>
+                        
+                        <h5> Residentes D </h5>
+                        <asp:CheckBoxList ID="chklEdificioD" runat="server">
+                        </asp:CheckBoxList>
+
+                    </asp:Panel>
+
+                <asp:Button ID="btnMatricular" runat="server" Text="Matricular" CssClass="btn btn-default" type="submit" Enabled="false" OnClick="btnMatricular_Click"/>
                 
             </div>
 
             <div class="col-sm-4">
-                <h2>Equipo </h2>
                 <br />
+                <div class="table table-responsive">
+                    <h2>Equipo </h2>
+                        <table id="tableEquipo" class="table table-responsive table-bordered" runat="server" style="margin-left:20px">
+                            <thead>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+
                 <label> Seleccionar </label>
+
                 <asp:CheckBoxList ID="chklEstudiantesEquipo" runat="server">
                 </asp:CheckBoxList>
                     

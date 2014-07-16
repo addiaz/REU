@@ -6,3 +6,11 @@ c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\I
 c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.csprojResolveAssemblyReference.cache
 c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.dll
 c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.pdb
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Negocios.dll.config
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Negocios.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Negocios.pdb
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Datos.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\bin\Debug\ITCR.Residencias.Datos.pdb
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.csprojResolveAssemblyReference.cache
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Negocios\obj\Debug\ITCR.Residencias.Negocios.pdb

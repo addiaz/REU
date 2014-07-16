@@ -16,6 +16,7 @@ namespace ITCR.Residencias.Interfaz
             LlenarTablaActividades();
 
             txtCapitan.Text = "Yo: " + Session["ID_USUARIO"].ToString();
+            
             //string sUsuario = Session["CARNE_USUARIO"].ToString();
             // if ( EquipoBuscarEstudiante(sUsuario) ) // Devuelve un bool.
             
@@ -24,22 +25,34 @@ namespace ITCR.Residencias.Interfaz
 
         protected void btnMostrarEstudiantes_Click(object sender, EventArgs e)
         {
-            //btnMostrarEstudiantes.Text = selectActividades.SelectedIndex.ToString();
 
-            if (selectActividades.SelectedIndex.ToString() == "1")
+            btnMatricular.Text = Select1.SelectedIndex.ToString();
+
+            if (Select1.SelectedIndex == 1)
             {
-                if (panelEstudiante.Visible == false)
+                if (PanelInicio.Visible == false)
                 {
-                    panelEstudiante.Visible = true;
+                    PanelInicio.Visible = true;
                     MostrarEstudiantesEdificio();
                 }
 
             }
 
+            else
+            {
+                if (PanelInicio.Visible == false)
+                {
+                    PanelInicio.Visible = true;
+                    PanelPorEdificio.Visible = true;
+                }
+
+            }
         }
 
         protected void MostrarEstudiantesEdificio()
         {
+            PanelResidentes.Visible = true;
+
             List<string> listEstudiantes = Datos.cConnectionDatos.SeleccionarEstudiantesEdificio(Session["EDIFICIO"].ToString());
 
             int i = 0;
@@ -60,7 +73,13 @@ namespace ITCR.Residencias.Interfaz
 
         protected void btnMatricular_Click(object sender, EventArgs e)
         {
+            HtmlTable tableTEquipo = new HtmlTable();
+            HtmlTableRow rowColumna = new HtmlTableRow();
+            HtmlTableCell cellFila = new HtmlTableCell();
+
+            List<string> listEstudiantesEquipo = new List<string>();
             int i = 0;
+            int iContadorEstudiantes = 0;
 
             while (i < chklEstudiantes.Items.Count)
             {
@@ -68,15 +87,20 @@ namespace ITCR.Residencias.Interfaz
                 {
                     chklEstudiantes.Items[i].Selected = false;
 
-                    ListItem listItemNuevo = new ListItem(chklEstudiantes.Items[i].Text, chklEstudiantes.Items[i].Value, true);
-                    chklEstudiantesEquipo.Items.Add(listItemNuevo);
+                    //ListItem listItemNuevo = new ListItem(chklEstudiantes.Items[i].Text, chklEstudiantes.Items[i].Value, true);
+                    //chklEstudiantesEquipo.Items.Add(listItemNuevo);
 
-                    chklEstudiantes.Items[i].Selected = true;
+                    listEstudiantesEquipo.Add(chklEstudiantes.Items[i].Text);
+
+                    //chklEstudiantes.Items[i].Selected = true;
+
+                    iContadorEstudiantes++;
                 }
 
                 i += 1;
             }
             
+            /*
             i = 0;
             while (i < chklEstudiantes.Items.Count)
             {
@@ -88,18 +112,37 @@ namespace ITCR.Residencias.Interfaz
 
                 i += 1;
             }
+            */
 
-            btnDesmatricular.Enabled = true;
+            if (Select1.SelectedIndex.ToString() == "1")
+            {
+                if (iContadorEstudiantes > 5)
+                {
+                    cellFila.InnerText = chklEstudiantes.Items[i].Text;
+                    rowColumna.Cells.Add(cellFila);
+                    tableTEquipo.Rows.Add(rowColumna);
+
+
+                    btnDesmatricular.Enabled = true;
+                    chklEstudiantes.Items.Clear();
+                    PanelResidentes.Visible = false;
+                }
+                else // Equipo valido para futbol sala.
+                {
+                    // Debe ser el equipo mayor igual que 5 personas.
+                }
+            }
+
         }
 
         protected void btn_Desmatricular_Click(object sender, EventArgs e)
         {
             int i = 0;
 
+            /*
             while (-1 < i && i < chklEstudiantesEquipo.Items.Count)
             {
                 string sValor = chklEstudiantesEquipo.Items[i].Text;
-                Boolean bBorrado = false; // Se usa para saber si se elimino algun check del equipo
 
                 if (chklEstudiantesEquipo.Items[i].Selected == true)
                 {
@@ -125,20 +168,20 @@ namespace ITCR.Residencias.Interfaz
                 i += 1;
 
             }
+            */
 
-            if (chklEstudiantesEquipo.Items.Count == 0)
-            {
-                btnDesmatricular.Enabled = false;
-                chklEstudiantes.Items.Clear();
-                panelEstudiante.Visible = false;
-            }
+            tableEquipo.Rows.Clear();
+            btnDesmatricular.Enabled = false;
+                
+            chklEstudiantes.Items.Clear();
+
+            PanelInicio.Visible = false;
+            PanelResidentes.Visible = false;
         }
 
         protected void LlenarTablaActividades()
         {
             List<string> listActividades = Datos.cConnectionDatos.ObtenerActividades();
-
-            
 
 
             HtmlTableRow rowNew;
@@ -146,7 +189,8 @@ namespace ITCR.Residencias.Interfaz
 
 
             tablaActividades.Rows.Clear();
-            ddlActividades.Items.Clear();
+            Select1.Items.Clear();
+            drpActividades.Items.Clear();
 
             /* Se inicalizan las variables HTML */
             rowNew = new HtmlTableRow();
@@ -178,9 +222,11 @@ namespace ITCR.Residencias.Interfaz
                 
                 //HtmlSelect selector = new HtmlSelect();
 
-                selectActividades.Items.Add(listItem);
+                //selectActividades.Items.Add(listItem);
+                drpActividades.Items.Add(listItem);
+                Select1.Items.Add(listItem);
 
-                ddlActividades.Items.Add(listItem);
+                drpActividades.Visible = false;
 
                 /* Se vuelve a inicializar las variables, esto es para obtener un nuevo elemento HTML */
                 rowNew = new HtmlTableRow();

@@ -35,3 +35,40 @@ c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\I
 c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.pdb
 c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.csproj.GenerateResource.Cache
 C:\Users\LoengrydeJesus\Documents\Visual Studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.frmError.resources
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\ITCR.Residencias.Interfaz.dll.config
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\ITCR.Residencias.Interfaz.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\ITCR.Residencias.Interfaz.pdb
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.Core.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\EntityFramework.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\ITCR.Residencias.Datos.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\ITCR.Residencias.Negocios.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\System.Web.Providers.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\System.Net.Http.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\ITCR.Residencias.Datos.pdb
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\ITCR.Residencias.Negocios.pdb
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\EntityFramework.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.Core.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\System.Net.Http.xml
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\bin\es\System.Net.Http.resources.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.csprojResolveAssemblyReference.cache
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.frmError.resources
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.csproj.GenerateResource.Cache
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Interfaz\obj\Debug\ITCR.Residencias.Interfaz.pdb

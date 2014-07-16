@@ -4,3 +4,9 @@ c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\I
 c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Datos\obj\Debug\ITCR.Residencias.Datos.dll
 c:\users\loengrydejesus\documents\visual studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Datos\obj\Debug\ITCR.Residencias.Datos.pdb
 C:\Users\LoengrydeJesus\Documents\Visual Studio 2013\Projects\ITCR.Residencias\ITCR.Residencias.Datos\bin\Debug\ITCR.Residencias.Datos.dll.config
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Datos\bin\Debug\ITCR.Residencias.Datos.dll.config
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Datos\bin\Debug\ITCR.Residencias.Datos.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Datos\bin\Debug\ITCR.Residencias.Datos.pdb
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Datos\obj\Debug\ITCR.Residencias.Datos.csprojResolveAssemblyReference.cache
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Datos\obj\Debug\ITCR.Residencias.Datos.dll
+C:\Users\LoengrydeJesus\Documents\GitHub\REU\ITCR.Residencias\ITCR.Residencias.Datos\obj\Debug\ITCR.Residencias.Datos.pdb

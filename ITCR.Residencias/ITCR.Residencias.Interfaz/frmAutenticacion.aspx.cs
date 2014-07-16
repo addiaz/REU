@@ -201,7 +201,7 @@ namespace ITCR.Residencias.Interfaz
                         {
                             lblMensajeError.ForeColor = Color.Red;
                             lblMensajeError.Font.Bold = true;
-                            lblMensajeError.Text = "La contraseña especificada no es válida";
+                            lblMensajeError.Text = "La contraseña o el usuario no es válido.";
                             txtPassword.Text = "";
                         }
                         else if (ex.ErrorCode == -2147023570)
@@ -221,7 +221,7 @@ namespace ITCR.Residencias.Interfaz
                     {
                         lblMensajeError.ForeColor = Color.Red;
                         lblMensajeError.Font.Bold = true;
-                        lblMensajeError.Text = "Contraseña incorrecta."; //ex.Message;
+                        lblMensajeError.Text = "Contraseña o usuario incorrecto."; //ex.Message;
                         txtPassword.Text = "";
                     }
 
@@ -245,13 +245,21 @@ namespace ITCR.Residencias.Interfaz
             {
                 lblMensajeError2.Text = "El campo de Pin no puede ser vacío.";
             }
+            else if (txtPin.Text.Length < 6)
+            {
+                lblMensajeError2.Text = "La contraseña debe ser no menor de 6 carácteres.";
+            }
             else
             {
 
                 //Guarda en la BD el Pin del estudiante relacionado con el carné dado.
-                string sRetorno = Datos.cConnectionDatos.CrearUsuario(txtCarne.Text, txtPin.Text)[0];
+                //string sRetorno = Datos.cConnectionDatos.CrearUsuario(txtCarne.Text, txtPin.Text)[0];
+
+                string sRetorno = "true";
+
                 if (sRetorno == "true")
                 {
+                    alertExito.Visible = true;
                     panelSignIn.Visible = true;
                     panelCrearUsuario.Visible = false;
                 }

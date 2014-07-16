@@ -142,6 +142,8 @@
 			        <img id="ManContent_imgProcesando" alt="Procesando" style="width: 22px; height: 22px; visibility:hidden;" 
 				        src="../imagenes/Procesando.gif" />
         
+                <div id="alertExito" runat="server" class="alert alert-success" role="alert" visible="false"> Registro Correcto </div>
+
                 </asp:Panel>
 
             <asp:Panel ID="panelCrearUsuario" runat="server" Visible="false">
@@ -155,7 +157,7 @@
                 <label for="pin">
                     <asp:TextBox id="txtPin" CssClass ="form-control" placeholder="password" runat="server" TextMode="Password" onFocus="javascript:this.select()"></asp:TextBox>
                     <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server" 
-                            CssClass="TextoError" ErrorMessage="Contraseña del usuario" ControlToValidate="txtPin">*</asp:RequiredFieldValidator>
+                            CssClass="TextoError" ErrorMessage="Contraseña del usuario" ControlToValidate="txtPin" ToolTip="Contraseña de 6 o más dígitos">*</asp:RequiredFieldValidator>
                 </label>
                 
                 <div class="form-button">

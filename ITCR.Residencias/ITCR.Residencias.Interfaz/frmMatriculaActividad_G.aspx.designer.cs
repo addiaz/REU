@@ -31,22 +31,22 @@ namespace ITCR.Residencias.Interfaz {
         protected global::System.Web.UI.HtmlControls.HtmlTable tablaActividades;
         
         /// <summary>
-        /// ddlActividades control.
+        /// drpActividades control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlActividades;
+        protected global::System.Web.UI.WebControls.DropDownList drpActividades;
         
         /// <summary>
-        /// selectActividades control.
+        /// Select1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect selectActividades;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect Select1;
         
         /// <summary>
         /// btnMostrarEstudiantes control.
@@ -58,13 +58,13 @@ namespace ITCR.Residencias.Interfaz {
         protected global::System.Web.UI.WebControls.Button btnMostrarEstudiantes;
         
         /// <summary>
-        /// panelEstudiante control.
+        /// PanelInicio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelEstudiante;
+        protected global::System.Web.UI.WebControls.Panel PanelInicio;
         
         /// <summary>
         /// txtCapitan control.
@@ -85,6 +85,15 @@ namespace ITCR.Residencias.Interfaz {
         protected global::System.Web.UI.WebControls.TextBox txtNombreEquipo;
         
         /// <summary>
+        /// PanelResidentes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PanelResidentes;
+        
+        /// <summary>
         /// chklEstudiantes control.
         /// </summary>
         /// <remarks>
@@ -94,6 +103,60 @@ namespace ITCR.Residencias.Interfaz {
         protected global::System.Web.UI.WebControls.CheckBoxList chklEstudiantes;
         
         /// <summary>
+        /// PanelPorEdificio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PanelPorEdificio;
+        
+        /// <summary>
+        /// chklEdificioA control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList chklEdificioA;
+        
+        /// <summary>
+        /// chklEdificioB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList chklEdificioB;
+        
+        /// <summary>
+        /// chklEdificioC control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList chklEdificioC;
+        
+        /// <summary>
+        /// chklCasita control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList chklCasita;
+        
+        /// <summary>
+        /// chklEdificioD control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList chklEdificioD;
+        
+        /// <summary>
         /// btnMatricular control.
         /// </summary>
         /// <remarks>
@@ -101,6 +164,15 @@ namespace ITCR.Residencias.Interfaz {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnMatricular;
+        
+        /// <summary>
+        /// tableEquipo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTable tableEquipo;
         
         /// <summary>
         /// chklEstudiantesEquipo control.
